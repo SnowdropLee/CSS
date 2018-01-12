@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*reset*/
+        body,
+        h1,
+        ul,
+        li,
+        p{
+            margin:0;
+            padding:0;
+        }
+        
+        /*全局样式*/
+        body{
+            font-size:14px;
+            text-align: center;
+            background: #FFF2E3;
+        }
+        ul{
+            list-style: none;
+        }
+        ul>li{
+            display:inline-block;
+        }
+        ul a{
+            color:#fff;
+            text-decoration: none;
+            padding:8px 16px;
+            background: #72B890;
+            border-radius: 3px;
+            display: :inline-block;
+        }
+        ul a:hover{
+            opacity:.8;
+        }
+        .active{
+            opacity:.7;
+        }
+
+
+        /*样式*/
+        /*title*/
+        .title{
+            font-size:40px;
+            color:#87968E;
+            margin-top:40px;
+        }
+        /*description*/
+        .description{
+            color:#B6BAAF;
+            margin:30px;
+        }
+        /*tab-ct&origin-info*/
+        .tab-ct,
+        .origin-info{
+            color:#fff;
+            margin:40px;
+        }
+        /*oriigin-info*/
+        .origin-info li{
+            margin:0 3px;
+        }
+        /*footer*/
+        .footer span{
+            color:#87968E;
+        }
+        .footer a{
+            color:#72B890;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">我的项目</h1>
+    <p class="description">一句话介绍</p>
+    <ul class="tab-ct">
+        <li class="active"><a href="#">项目1</a></li>
+        <li><a href="#">项目2</a></li>
+        <li><a href="#">项目3</a></li>
+        <li><a href="#">项目4</a></li>
+        <li><a href="#">项目5</a></li>   
+    </ul>
+    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="图片">
+    <ul class="origin-info">
+        <li><a href="#">查看源码</a></li>
+        <li><a href="#">使用说明</a></li>
+    </ul>
+    <p class="footer">
+        <span>作者:</span>
+        <a href="https://github.com/WebsnowDrop" target="_blank">snowdrop</a>
+    </p>
+</body>
+</html>
